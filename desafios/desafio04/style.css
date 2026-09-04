@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: linear-gradient(to top, #000000, #808080, #F2F2F2);
+}
+
+h1{
+    
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    color: white;
+}    
+
+header{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.816);
+    border-radius: 7px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+   
+}
+
+nav#menu{
+    padding: 10px;
+}
+
+nav#menu > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    
+}
+nav#menu > a:hover{
+    color: wheat;
+}
+
+main {
+    background-color: whitesmoke;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+}
+
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    background-color: black;
+    color: white;
+}
+footer > ul{
+    color: white;
+}
+
+li > a{
+    color: white;
+}
+li > a:hover{
+    color: wheat;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}

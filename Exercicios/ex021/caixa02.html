@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Agrupamento</title>
+    <style>
+        #assuntos{
+            background-color: lightgray;
+            padding: 3px 3px 0px 2px;
+        }
+        h1{
+            box-shadow: 2px 1px 14px rgba(0, 0, 0, 0.412);
+        }
+        #titulo{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder; 
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;   
+            text-align: justify;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(128, 128, 128);
+            padding: 2px;
+             box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.522);
+        }
+        nav > a{
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.497);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(166, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 1px;
+            text-align: center;
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente fuga at, nemo facilis odit, a corrupti commodi inventore amet similique excepturi! Cumque itaque debitis culpa aut placeat rerum commodi modi.</p>
+            
+        </section>
+        <section id="noticias">
+                <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui ea quia eum magnam facilis, itaque, earum, dolores quidem facere ullam accusamus eligendi molestiae impedit laudantium molestias nisi quasi! Incidunt.</p>
+                    <aside>
+                        <p>Artigo escrito por Marcelo Becler</p>
+                    </aside>
+                </article>
+                <article>
+
+                </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desnvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
